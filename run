@@ -1,0 +1,6 @@
+docker run -t -i \
+  --name=vlc-vp8 \
+  -p 522:22 \
+  -v ~/Downloads:/video:rw \
+  martynas/vlc-vp8 \
+  /bin/bash

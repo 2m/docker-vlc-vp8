@@ -1,0 +1,2 @@
+docker stop vlc-vp8
+docker rm vlc-vp8
